@@ -6,7 +6,7 @@
 }
 
 body {
-
+    font-family: cursive;
 }
 
 header {
@@ -21,36 +21,32 @@ header > h1 {
 }
 
 main {
-    height: 80vh;
-    padding: 15px;
+    width: 96vw;
+    height: auto;
 }
 
 table {
-    text-align: center;
+    width: 92vw;
+    min-width: 100px;
+    margin: 20px;
     padding: 20px;
-    font-size: 2em;
-    min-width: 96vw;
-    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.5em;
+
 }
 
 td {
     padding: 10px;
     border: 1px solid black;
-    
+
 }
 
-tr.s {
-    
+td.vazia {
+    border: none;
 }
 
-td.afastar {
-    padding-left: 200px;
-}
-
-td.variavel {
-    position: absolute;
-    
-    padding-right: 30px;
+td.h:hover {
+    background-color: red;
 }
 
 footer {
