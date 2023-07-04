@@ -45,7 +45,7 @@ td.vazia {
     border: none;
 }
 
-td.h:hover {
+tr .h:hover .nome {
     background-color: red;
 }
 
