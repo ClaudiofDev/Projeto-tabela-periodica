@@ -101,24 +101,24 @@
                 <td id="Rn">Rn</td>
             </tr>
             <tr>
-                <td class="h">Fr</td>
-                <td class="h">Ra</td>
-                <td class="h">Lr</td>
-                <td class="h">Rf</td>
-                <td class="h">Db</td>
-                <td class="h">Sg</td>
-                <td class="h">Bh</td>
-                <td class="h">Hs</td>
-                <td class="h">Mt</td>
-                <td class="h">Ds</td>
-                <td class="h">Rg</td>
-                <td class="h">Cn</td>
-                <td class="h">Nh</td>
-                <td class="h">Fl</td>
-                <td class="h">Mc</td>
-                <td class="h">Lv</td>
-                <td class="h">Ts</td>
-                <td class="h">Og</td>
+                <td id="Fr">Fr</td>
+                <td id="Ra">Ra</td>
+                <td id="Lr">Lr</td>
+                <td id="Rf">Rf</td>
+                <td id="Db">Db</td>
+                <td id="Sg">Sg</td>
+                <td id="Bh">Bh</td>
+                <td id="Hs">Hs</td>
+                <td id="Mt">Mt</td>
+                <td id="Ds">Ds</td>
+                <td id="Rg">Rg</td>
+                <td id="Cn">Cn</td>
+                <td id="Nh">Nh</td>
+                <td id="Fl">Fl</td>
+                <td id="Mc">Mc</td>
+                <td id="Lv">Lv</td>
+                <td id="Ts">Ts</td>
+                <td id="Og">Og</td>
             </tr>
             <!--<tr>
                 <td></td>
@@ -1096,7 +1096,240 @@
 
         </script>
         <script>
-            
+            var Fr = window.document.getElementById('Fr')
+            var Ra = window.document.getElementById('Ra')
+            var Lr = window.document.getElementById('Lr')
+            var Rf = window.document.getElementById('Rf')
+            var Db = window.document.getElementById('Db')
+            var Sg = window.document.getElementById('Sg')
+            var Bh = window.document.getElementById('Bh')
+            var Hs = window.document.getElementById('Hs')
+            var Mt = window.document.getElementById('Mt')
+            var Ds = window.document.getElementById('Ds')
+            var Rg = window.document.getElementById('Rg')
+            var Cn = window.document.getElementById('Cn')
+            var Nh = window.document.getElementById('Nh')
+            var Fl = window.document.getElementById('Fl')
+            var Mc = window.document.getElementById('Mc')
+            var Lv = window.document.getElementById('Lv')
+            var Ts = window.document.getElementById('Ts')
+            var Og = window.document.getElementById('Og')
+
+            //Frâncio
+            Fr.addEventListener('mouseenter', enterFr)
+            Fr.addEventListener('mouseout', saiuFr)
+            function enterFr() {
+                nome.innerText = 'Frâncio'
+                Fr.style.background = 'red'
+            }
+            function saiuFr() {
+                nome.innerText = 'Tabela periódica'
+                Fr.style.background = 'white'
+            }
+
+            //Rádio
+            Ra.addEventListener('mouseenter', enterRa)
+            Ra.addEventListener('mouseout', saiuRa)
+            function enterRa() {
+                nome.innerText = 'Rádio'
+                Ra.style.background = 'red'
+            }
+            function saiuRa() {
+                nome.innerText = 'Tabela periódica'
+                Ra.style.background = 'white'
+            }
+
+            //Laurêncio
+            Lr.addEventListener('mouseenter', enterLr)
+            Lr.addEventListener('mouseout', saiuLr)
+            function enterLr() {
+                nome.innerText = 'Laurêncio'
+                Lr.style.background = 'red'
+            }
+            function saiuLr() {
+                nome.innerText = 'Tabela periódica'
+                Lr.style.background = 'white'
+            }
+
+            //Rutherfórdio
+            Rf.addEventListener('mouseenter', enterRf)
+            Rf.addEventListener('mouseout', saiuRf)
+            function enterRf() {
+                nome.innerText = 'Rutherfórdio'
+                Rf.style.background = 'red'
+            }
+            function saiuRf() {
+                nome.innerText = 'Tabela periódica'
+                Rf.style.background = 'white'
+            }
+
+            //Dúbnio
+            Db.addEventListener('mouseenter', enterDb)
+            Db.addEventListener('mouseout', saiuDb)
+            function enterDb() {
+                nome.innerText = 'Dúbnio'
+                Db.style.background = 'red'
+            }
+            function saiuDb() {
+                nome.innerText = 'Tabela periódica'
+                Db.style.background = 'white'
+            }
+
+            //Seabórgio
+            Sg.addEventListener('mouseenter', enterSg)
+            Sg.addEventListener('mouseout', saiuSg)
+            function enterSg() {
+                nome.innerText = 'Seabórgio'
+                Sg.style.background = 'red'
+            }
+            function saiuSg() {
+                nome.innerText = 'Tabela periódica'
+                Sg.style.background = 'white'
+            }
+
+            //Bóhrio
+            Bh.addEventListener('mouseenter', enterBh)
+            Bh.addEventListener('mouseout', saiuBh)
+            function enterBh() {
+                nome.innerText = 'Bóhrio'
+                Bh.style.background = 'red'
+            }
+            function saiuBh() {
+                nome.innerText = 'Tabela periódica'
+                Bh.style.background = 'white'
+            }
+
+            //Hássio
+            Bh.addEventListener('mouseenter', enterBh)
+            Bh.addEventListener('mouseout', saiuBh)
+            function enterBh() {
+                nome.innerText = 'Hássio'
+                Bh.style.background = 'red'
+            }
+            function saiuBh() {
+                nome.innerText = 'Tabela periódica'
+                Bh.style.background = 'white'
+            }
+
+            //Meitnério
+            Hs.addEventListener('mouseenter', enterHs)
+            Hs.addEventListener('mouseout', saiuHs)
+            function enterHs() {
+                nome.innerText = 'Meitnério'
+                Hs.style.background = 'red'
+            }
+            function saiuHs() {
+                nome.innerText = 'Tabela periódica'
+                Hs.style.background = 'white'
+            }
+
+            //Darmstádtio
+            Mt.addEventListener('mouseenter', enterMt)
+            Mt.addEventListener('mouseout', saiuMt)
+            function enterMt() {
+                nome.innerText = 'Darmstádtio'
+                Mt.style.background = 'red'
+            }
+            function saiuMt() {
+                nome.innerText = 'Tabela periódica'
+                Mt.style.background = 'white'
+            }
+
+            //Roentgênio
+            Ds.addEventListener('mouseenter', enterDs)
+            Ds.addEventListener('mouseout', saiuDs)
+            function enterDs() {
+                nome.innerText = 'Roentgênio'
+                Ds.style.background = 'red'
+            }
+            function saiuDs() {
+                nome.innerText = 'Tabela periódica'
+                Ds.style.background = 'white'
+            }
+
+            //Copernício
+            Rg.addEventListener('mouseenter', enterRg)
+            Rg.addEventListener('mouseout', saiuRg)
+            function enterRg() {
+                nome.innerText = 'Copernício'
+                Rg.style.background = 'red'
+            }
+            function saiuRg() {
+                nome.innerText = 'Tabela periódica'
+                Rg.style.background = 'white'
+            }
+
+            //Nihônio
+            Cn.addEventListener('mouseenter', enterCn)
+            Cn.addEventListener('mouseout', saiuCn)
+            function enterCn() {
+                nome.innerText = 'Nihônio'
+                Cn.style.background = 'red'
+            }
+            function saiuCn() {
+                nome.innerText = 'Tabela periódica'
+                Cn.style.background = 'white'
+            }
+
+            //Fleróvio
+            Nh.addEventListener('mouseenter', enterNh)
+            Nh.addEventListener('mouseout', saiuNh)
+            function enterNh() {
+                nome.innerText = 'Fleróvio'
+                Nh.style.background = 'red'
+            }
+            function saiuNh() {
+                nome.innerText = 'Tabela periódica'
+                Nh.style.background = 'white'
+            }
+
+            //Moscóvio
+            Fl.addEventListener('mouseenter', enterFl)
+            Fl.addEventListener('mouseout', saiuFl)
+            function enterFl() {
+                nome.innerText = 'Moscóvio'
+                Fl.style.background = 'red'
+            }
+            function saiuFl() {
+                nome.innerText = 'Tabela periódica'
+                Fl.style.background = 'white'
+            }
+
+            //Livermório
+            Mc.addEventListener('mouseenter', enterMc)
+            Mc.addEventListener('mouseout', saiuMc)
+            function enterMc() {
+                nome.innerText = 'Livermório'
+                Mc.style.background = 'red'
+            }
+            function saiuMc() {
+                nome.innerText = 'Tabela periódica'
+                Mc.style.background = 'white'
+            }
+
+            //Tennesso
+            Lv.addEventListener('mouseenter', enterLv)
+            Lv.addEventListener('mouseout', saiuLv)
+            function enterLv() {
+                nome.innerText = 'Tennesso'
+                Lv.style.background = 'red'
+            }
+            function saiuLv() {
+                nome.innerText = 'Tabela periódica'
+                Lv.style.background = 'white'
+            }
+
+            //Oganessônio
+            Og.addEventListener('mouseenter', enterOg)
+            Og.addEventListener('mouseout', saiuOg)
+            function enterOg() {
+                nome.innerText = 'Oganessônio'
+                Og.style.background = 'red'
+            }
+            function saiuOg() {
+                nome.innerText = 'Tabela periódica'
+                Og.style.background = 'white'
+            }
 
             
         </script>
