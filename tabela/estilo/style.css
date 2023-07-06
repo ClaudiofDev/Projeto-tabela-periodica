@@ -21,7 +21,7 @@ header > h1 {
 }
 
 main {
-    background-color: orange;
+    background-color: rgb(255, 255, 255);
     height: auto;
 }
 
@@ -37,7 +37,6 @@ div {
 table {
     
     width: 96vw;
-    margin: 20px;
     padding: 20px;
     text-align: center;
     font-size: 1.5em;
