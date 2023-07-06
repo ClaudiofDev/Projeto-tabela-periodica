@@ -21,18 +21,26 @@ header > h1 {
 }
 
 main {
-    width: 96vw;
+    
     height: auto;
 }
 
+div {
+    position: absolute;
+    top: 171px;
+    left: 177px;
+    height: 54px;
+    width: 655px;
+    border: 1px solid black;
+}
+
 table {
-    width: 92vw;
-    min-width: 100px;
+    
+    width: 96vw;
     margin: 20px;
     padding: 20px;
     text-align: center;
     font-size: 1.5em;
-
 }
 
 td {
@@ -45,11 +53,12 @@ td.vazia {
     border: none;
 }
 
-tr .h:hover .nome {
+div > td:hover {
     background-color: red;
 }
 
 footer {
+    width: 96vw;
     padding: 5px;
     background-color: rgb(115, 0, 0);
     color: white;
