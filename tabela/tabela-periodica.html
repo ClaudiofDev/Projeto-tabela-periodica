@@ -61,44 +61,44 @@
                 <td id="Kr">Kr</td>
             </tr>
             <tr>
-                <td class="h">Rb</td>
-                <td class="h">Sr</td>
-                <td class="h">Y</td>
-                <td class="h">Zr</td>
-                <td class="h">Nb</td>
-                <td class="h">Mo</td>
-                <td class="h">Tc</td>
-                <td class="h">Ru</td>
-                <td class="h">Rh</td>
-                <td class="h">Pd</td>
-                <td class="h">Ag</td>
-                <td class="h">Cd</td>
-                <td class="h">In</td>
-                <td class="h">Sn</td>
-                <td class="h">Sb</td>
-                <td class="h">Te</td>
-                <td class="h">I</td>
-                <td class="h">Xe</td>
+                <td id="Rb">Rb</td>
+                <td id="Sr">Sr</td>
+                <td id="Y">Y</td>
+                <td id="Zr">Zr</td>
+                <td id="Nb">Nb</td>
+                <td id="Mo">Mo</td>
+                <td id="Tc">Tc</td>
+                <td id="Ru">Ru</td>
+                <td id="Rh">Rh</td>
+                <td id="Pd">Pd</td>
+                <td id="Ag">Ag</td>
+                <td id="Cd">Cd</td>
+                <td id="In">In</td>
+                <td id="Sn">Sn</td>
+                <td id="Sb">Sb</td>
+                <td id="Te">Te</td>
+                <td id="I">I</td>
+                <td id="Xe">Xe</td>
             </tr>
             <tr>
-                <td class="h">Cs</td>
-                <td class="h">Ba</td>
-                <td class="h">Lu</td>
-                <td class="h">Hf</td>
-                <td class="h">Ta</td>
-                <td class="h">W</td>
-                <td class="h">Re</td>
-                <td class="h">Os</td>
-                <td class="h">Ir</td>
-                <td class="h">Pt</td>
-                <td class="h">Au</td>
-                <td class="h">Hg</td>
-                <td class="h">Tl</td>
-                <td class="h">Pb</td>
-                <td class="h">Bi</td>
-                <td class="h">Po</td>
-                <td class="h">At</td>
-                <td class="h">Rn</td>
+                <td id="Cs">Cs</td>
+                <td id="Ba">Ba</td>
+                <td id="Lu">Lu</td>
+                <td id="Hf">Hf</td>
+                <td id="Ta">Ta</td>
+                <td id="W">W</td>
+                <td id="Re">Re</td>
+                <td id="Os">Os</td>
+                <td id="Ir">Ir</td>
+                <td id="Pt">Pt</td>
+                <td id="Au">Au</td>
+                <td id="Hg">Hg</td>
+                <td id="Tl">Tl</td>
+                <td id="Pb">Pb</td>
+                <td id="Bi">Bi</td>
+                <td id="Po">Po</td>
+                <td id="At">At</td>
+                <td id="Rn">Rn</td>
             </tr>
             <tr>
                 <td class="h">Fr</td>
@@ -615,6 +615,490 @@
                 Kr.style.background = 'white'
             }
 
+        </script>
+        <script>
+            var Rb =  window.document.getElementById('Rb')
+            var Sr =  window.document.getElementById('Sr')
+            var Y =  window.document.getElementById('Y')
+            var Zr =  window.document.getElementById('Zr')
+            var Nb =  window.document.getElementById('Nb')
+            var Mo =  window.document.getElementById('Mo')
+            var Tc =  window.document.getElementById('Tc')
+            var Ru =  window.document.getElementById('Ru')
+            var Rh =  window.document.getElementById('Rh')
+            var Pd =  window.document.getElementById('Pd')
+            var Ag =  window.document.getElementById('Ag')
+            var Cd =  window.document.getElementById('Cd')
+            var In =  window.document.getElementById('In')
+            var Sn =  window.document.getElementById('Sn')
+            var Sb =  window.document.getElementById('Sb')
+            var Te =  window.document.getElementById('Te')
+            var I =  window.document.getElementById('I')
+            var Xe =  window.document.getElementById('Xe')
+
+            //Rubídio
+            Rb.addEventListener('mouseenter', enterRb)
+            Rb.addEventListener('mouseout', saiuRb)
+            function enterRb() {
+                nome.innerText = 'Rubídio'
+                Rb.style.background = 'red'
+            }
+            function saiuRb() {
+                nome.innerText = 'Tabela periódica'
+                Rb.style.background = 'white'
+            }
+
+            //Estrôncio
+            Sr.addEventListener('mouseenter', enterSr)
+            Sr.addEventListener('mouseout', saiuSr)
+            function enterSr() {
+                nome.innerText = 'Estrôncio'
+                Sr.style.background = 'red'
+            }
+            function saiuSr() {
+                nome.innerText = 'Tabela periódica'
+                Sr.style.background = 'white'
+            }
+
+            //Ítrio
+            Y.addEventListener('mouseenter', enterY)
+            Y.addEventListener('mouseout', saiuY)
+            function enterY() {
+                nome.innerText = 'Ítrio'
+                Y.style.background = 'red'
+            }
+            function saiuY() {
+                nome.innerText = 'Tabela periódica'
+                Y.style.background = 'white'
+            }
+
+            //Zircônio
+            Zr.addEventListener('mouseenter', enterZr)
+            Zr.addEventListener('mouseout', saiuZr)
+            function enterZr(){
+                nome.innerText = 'Zircônio'
+                Zr.style.background = 'red'
+            }
+            function saiuZr(){
+                nome.innerText = 'Tabela periódica'
+                Zr.style.background = 'white'
+            }
+
+            //Nióbio
+            Nb.addEventListener('mouseenter', enterNb)
+            Nb.addEventListener('mouseout', saiuNb)
+            function enterNb() {
+                nome.innerText = 'Nióbio'
+                Nb.style.background = 'red'
+            }
+            function saiuNb() {
+                nome.innerText = 'Tabela periódica'
+                Nb.style.background = 'white'
+            }
+
+            //Molibdênio
+            Mo.addEventListener('mouseenter', enterMo)
+            Mo.addEventListener('mouseout', saiuMo)
+            function enterMo() {
+                nome.innerText = 'Molibdênio'
+                Mo.style.background = 'red'
+            }
+            function saiuMo() {
+                nome.innerText = 'Tabela periódica'
+                Mo.style.background = 'white'
+            }
+
+            //Tecnécio
+            Tc.addEventListener('mouseenter', enterTc)
+            Tc.addEventListener('mouseout', saiuTc)
+            function enterTc() {
+                nome.innerText = 'Tecnécio'
+                Tc.style.background = 'red'
+            }
+            function saiuTc() {
+                nome.innerText = 'Tabela periódica'
+                Tc.style.background = 'white'
+            }
+
+            //Rutênio
+            Ru.addEventListener('mouseenter', enterRu)
+            Ru.addEventListener('mouseout', saiuRu)
+            function enterRu() {
+                nome.innerText = 'Rutênio'
+                Ru.style.background = 'red'
+            }
+            function saiuRu() {
+                nome.innerText = 'Tabela periódica'
+                Ru.style.background = 'white'
+            }
+
+            //Ródio
+            Rh.addEventListener('mouseenter', enterRh)
+            Rh.addEventListener('mouseout', saiuRh)
+            function enterRh() {
+                nome.innerText = 'Ródio'
+                Rh.style.background = 'red'
+            }
+            function saiuRh() {
+                nome.innerText = 'Tabela periódica'
+                Rh.style.background = 'white'
+            }
+
+            //Paládio
+            Pd.addEventListener('mouseenter', enterPd)
+            Pd.addEventListener('mouseout', saiuPd)
+            function enterPd() {
+                nome.innerText = 'Paládio'
+                Pd.style.background = 'red'
+            }
+            function saiuPd() {
+                nome.innerText = 'Tabela periódica'
+                Pd.style.background = 'white'
+            }
+
+            //Prata
+            Ag.addEventListener('mouseenter', enterAg)
+            Ag.addEventListener('mouseout', saiuAg)
+            function enterAg() {
+                nome.innerText = 'Prata'
+                Ag.style.background = 'red'
+            }
+            function saiuAg() {
+                nome.innerText = 'Tabela periódica'
+                Ag.style.background = 'white'
+            }
+
+            //Cádmio
+            Cd.addEventListener('mouseenter', enterCd)
+            Cd.addEventListener('mouseout', saiuCd)
+            function enterCd() {
+                nome.innerText = 'Cádmio'
+                Cd.style.background = 'red'
+            }
+            function saiuCd() {
+                nome.innerText = 'Tabela periódica'
+                Cd.style.background = 'white'
+            }
+
+            //Índio
+            In.addEventListener('mouseenter', enterIn)
+            In.addEventListener('mouseout', saiuIn)
+            function enterIn() {
+                nome.innerText = 'Índio'
+                In.style.background = 'red'
+            }
+            function saiuIn() {
+                nome.innerText = 'Tabela periódica'
+                In.style.background = 'white'
+            }
+
+            //Estanho
+            Sn.addEventListener('mouseenter', enterSn)
+            Sn.addEventListener('mouseout', saiuSn)
+            function enterSn() {
+                nome.innerText = 'Estanho'
+                Sn.style.background = 'red'
+            }
+            function saiuSn() {
+                nome.innerText = 'Tabela periódica'
+                Sn.style.background = 'white'
+            }
+
+            //Antimônio
+            Sb.addEventListener('mouseenter', enterSb)
+            Sb.addEventListener('mouseout', saiuSb)
+            function enterSb() {
+                nome.innerText = 'Antimônio'
+                Sb.style.background = 'red'
+            }
+            function saiuSb() {
+                nome.innerText = 'Tabela periódica'
+                Sb.style.background = 'white'
+            }
+
+            //Telúrio
+            Te.addEventListener('mouseenter', enterTe)
+            Te.addEventListener('mouseout', saiuTe)
+            function enterTe() {
+                nome.innerText = 'Telúrio'
+                Te.style.background = 'red'
+            }
+            function saiuTe() {
+                nome.innerText = 'Tabela periódica'
+                Te.style.background = 'white'
+            }
+
+            //Iodo
+            I.addEventListener('mouseenter', enterI)
+            I.addEventListener('mouseout', saiuI)
+            function enterI() {
+                nome.innerText = 'Iodo'
+                I.style.background = 'red'
+            }
+            function saiuI() {
+                nome.innerText = 'Tabela periódica'
+                I.style.background = 'white'
+            }
+
+            //Xenônio
+            Xe.addEventListener('mouseenter', enterXe)
+            Xe.addEventListener('mouseout', saiuXe)
+            function enterXe() {
+                nome.innerText = 'Xenônio'
+                Xe.style.background = 'red'
+            }
+            function saiuXe() {
+                nome.innerText = 'Tabela periódica'
+                Xe.style.background = 'white'
+            }
+
+
+
+
+        </script>
+        <script>
+            var Cs =  window.document.getElementById('Cs')
+            var Ba =  window.document.getElementById('Ba')
+            var Lu =  window.document.getElementById('Lu')
+            var Hf =  window.document.getElementById('Hf')
+            var Ta =  window.document.getElementById('Ta')
+            var W =  window.document.getElementById('W')
+            var Re =  window.document.getElementById('Re')
+            var Os =  window.document.getElementById('Os')
+            var Ir =  window.document.getElementById('Ir')
+            var Pt =  window.document.getElementById('Pt')
+            var Au =  window.document.getElementById('Au')
+            var Hg =  window.document.getElementById('Hg')
+            var Tl =  window.document.getElementById('Tl')
+            var Pb =  window.document.getElementById('Pb')
+            var Bi =  window.document.getElementById('Bi')
+            var Po =  window.document.getElementById('Po')
+            var At =  window.document.getElementById('At')
+            var Rn =  window.document.getElementById('Rn')
+            
+
+            //Césio
+            Cs.addEventListener('mouseenter', enterCs)
+            Cs.addEventListener('mouseout', saiuCs)
+            function enterCs() {
+                nome.innerText = 'Césio'
+                Cs.style.background = 'red'
+            }
+            function saiuCs() {
+                nome.innerText = 'Tabela periódica'
+                Cs.style.background = 'white'
+            }
+
+            //Bário
+            Ba.addEventListener('mouseenter', enterBa)
+            Ba.addEventListener('mouseout', saiuBa)
+            function enterBa() {
+                nome.innerText = 'Bário'
+                Ba.style.background = 'red'
+            }
+            function saiuBa() {
+                nome.innerText = 'Tabela periódica'
+                Ba.style.background = 'white'
+            }
+
+            //Lutécio
+            Lu.addEventListener('mouseenter', enterLu)
+            Lu.addEventListener('mouseout', saiuLu)
+            function enterLu() {
+                nome.innerText = 'Lutécio'
+                Lu.style.background = 'red'
+            }
+            function saiuLu() {
+                nome.innerText = 'Tabela periódica'
+                Lu.style.background = 'white'
+            }
+
+            //Háfnio
+            Hf.addEventListener('mouseenter', enterHf)
+            Hf.addEventListener('mouseout', saiuHf)
+            function enterHf() {
+                nome.innerText = 'Háfnio'
+                Hf.style.background = 'red'
+            }
+            function saiuHf() {
+                nome.innerText = 'Tabela periódica'
+                Hf.style.background = 'white'
+            }
+
+            //Tântalo
+            Ta.addEventListener('mouseenter', enterTa)
+            Ta.addEventListener('mouseout', saiuTa)
+            function enterTa() {
+                nome.innerText = 'Tântalo'
+                Ta.style.background = 'red'
+            }
+            function saiuTa() {
+                nome.innerText = 'Tabela periódica'
+                Ta.style.background = 'white'
+            }
+
+            //Tungstênio
+            W.addEventListener('mouseenter', enterW)
+            W.addEventListener('mouseout', saiuW)
+            function enterW() {
+                nome.innerText = 'Tungstênio'
+                W.style.background = 'red'
+            }
+            function saiuW() {
+                nome.innerText = 'Tabela periódica'
+                W.style.background = 'white'
+            }
+
+            //Rênio
+            Re.addEventListener('mouseenter', enterRe)
+            Re.addEventListener('mouseout', saiuRe)
+            function enterRe() {
+                nome.innerText = 'Rênio'
+                Re.style.background = 'red'
+            }
+            function saiuRe() {
+                nome.innerText = 'Tabela periódica'
+                Re.style.background = 'white'
+            }
+
+            //Ósmio
+            Os.addEventListener('mouseenter', enterOs)
+            Os.addEventListener('mouseout', saiuOs)
+            function enterOs() {
+                nome.innerText = 'Ósmio'
+                Os.style.background = 'red'
+            }
+            function saiuOs() {
+                nome.innerText = 'Tabela periódica'
+                Os.style.background = 'white'
+            }
+
+            //Irídio
+            Ir.addEventListener('mouseenter', enterIr)
+            Ir.addEventListener('mouseout', saiuIr)
+            function enterIr() {
+                nome.innerText = 'Irídio'
+                Ir.style.background = 'red'
+            }
+            function saiuIr() {
+                nome.innerText = 'Tabela periódica'
+                Ir.style.background = 'white'
+            }
+
+            //Platina
+            Pt.addEventListener('mouseenter', enterPt)
+            Pt.addEventListener('mouseout', saiuPt)
+            function enterPt() {
+                nome.innerText = 'Platina'
+                Pt.style.background = 'red'
+            }
+            function saiuPt() {
+                nome.innerText = 'Tabela periódica'
+                Pt.style.background = 'white'
+            }
+
+            //Ouro
+            Au.addEventListener('mouseenter', enterAu)
+            Au.addEventListener('mouseout', saiuAu)
+            function enterAu() {
+                nome.innerText = 'Ouro'
+                Au.style.background = 'red'
+            }
+            function saiuAu() {
+                nome.innerText = 'Tabela periódica'
+                Au.style.background = 'white'
+            }
+
+            //Mercúrio
+            Hg.addEventListener('mouseenter', enterHg)
+            Hg.addEventListener('mouseout', saiuHg)
+            function enterHg() {
+                nome.innerText = 'Mercúrio'
+                Hg.style.background = 'red'
+            }
+            function saiuHg() {
+                nome.innerText = 'Tabela periódica'
+                Hg.style.background = 'white'
+            }
+
+            //Tálio
+            Tl.addEventListener('mouseenter', enterTl)
+            Tl.addEventListener('mouseout', saiuTl)
+            function enterTl() {
+                nome.innerText = 'Tálio'
+                Tl.style.background = 'red'
+            }
+            function saiuTl() {
+                nome.innerText = 'Tabela periódica'
+                Tl.style.background = 'white'
+            }
+
+            //Chumbo
+            Pb.addEventListener('mouseenter', enterPb)
+            Pb.addEventListener('mouseout', saiuPb)
+            function enterPb() {
+                nome.innerText = 'Chumbo'
+                Pb.style.background = 'red'
+            }
+            function saiuPb() {
+                nome.innerText = 'Tabela periódica'
+                Pb.style.background = 'white'
+            }
+
+            //Bismuto
+            Bi.addEventListener('mouseenter', enterBi)
+            Bi.addEventListener('mouseout', saiuBi)
+            function enterBi() {
+                nome.innerText = 'Bismuto'
+                Bi.style.background = 'red'
+            }
+            function saiuBi() {
+                nome.innerText = 'Tabela periódica'
+                Bi.style.background = 'white'
+            }
+
+            //Polônio
+            Po.addEventListener('mouseenter', enterPo)
+            Po.addEventListener('mouseout', saiuPo)
+            function enterPo() {
+                nome.innerText = 'Polônio'
+                Po.style.background = 'red'
+            }
+            function saiuPo() {
+                nome.innerText = 'Tabela periódica'
+                Po.style.background = 'white'
+            }
+
+            //Ástato
+            At.addEventListener('mouseenter', enterAt)
+            At.addEventListener('mouseout', saiuAt)
+            function enterAt() {
+                nome.innerText = 'Ástato'
+                At.style.background = 'red'
+            }
+            function saiuAt() {
+                nome.innerText = 'Tabela periódica'
+                At.style.background = 'white'
+            }
+
+            //Radônio
+            Rn.addEventListener('mouseenter', enterRn)
+            Rn.addEventListener('mouseout', saiuRn)
+            function enterRn() {
+                nome.innerText = 'Radônio'
+                Rn.style.background = 'red'
+            }
+            function saiuRn() {
+                nome.innerText = 'Tabela periódica'
+                Rn.style.background = 'white'
+            }
+
+
+        </script>
+        <script>
+            
+
+            
         </script>
     </main>
     <footer>
