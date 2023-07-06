@@ -12,24 +12,23 @@
     </header>
     <main>
         <table>
-            <div></div>
-            <tr class="ex">
-                <td class="h">H</td>
+            <tr>
+                <td id="H">H</td>
                 <td class="vazia"></td>
-                <td colspan="10" class="nome">Nome</td>
+                <td colspan="10" id="nome">Tabela periódica</td>
                 <td colspan="5" class="vazia"></td>
-                <td class="h">He</td>
+                <td id="h">He</td>
             </tr>
-            <tr class="s">
-                <td class="h">Li</td>
-                <td class="h">Be</td>
-                <td colspan="10" rowspan="2" class="var">Var</td>
-                <td class="h">B</td>
-                <td class="h">C</td>
-                <td class="h">N</td>
-                <td class="h">O</td>
-                <td class="h">F</td>
-                <td class="h">Ne</td>
+            <tr>
+                <td id="Li">Li</td>
+                <td id="Be">Be</td>
+                <td colspan="10" rowspan="2" id="var">Var</td>
+                <td id="B">B</td>
+                <td id="C">C</td>
+                <td id="N">N</td>
+                <td id="O">O</td>
+                <td id="F">F</td>
+                <td id="Ne">Ne</td>
             </tr>
             <tr>
                 <td class="h">Na</td>
@@ -140,6 +139,139 @@
                 <td></td>
             </tr>-->
         </table>
+        <script>
+            var nome = window.document.getElementById('nome')
+            var H = window.document.getElementById('H')
+            var h = window.document.getElementById('h')
+            var Li = window.document.getElementById('Li')
+            var Be = window.document.getElementById('Be')
+            var B = window.document.getElementById('B')
+            var C = window.document.getElementById('C')
+            var N = window.document.getElementById('N')
+            var O = window.document.getElementById('O')
+            var F = window.document.getElementById('F')
+            var Ne = window.document.getElementById('Ne')
+            
+            //Hidrogênio
+            H.addEventListener('mouseenter', enterH)
+            H.addEventListener('mouseout', saiuH)
+            function enterH() {
+                nome.innerText = 'Hidrogênio'
+                H.style.background = 'red'
+            }
+            function saiuH() {
+                nome.innerText = 'Tabela periódica'
+                H.style.background = 'white'
+            }
+
+            //Hélio
+            h.addEventListener('mouseenter', enterh)
+            h.addEventListener('mouseout', saiuh)
+            function enterh() {
+                nome.innerText = 'Hélio'
+                h.style.background = 'red'
+            }
+            function saiuh() {
+                nome.innerText = 'Tabela periódica'
+                h.style.background = 'white'
+            }
+
+            //Lítio
+            Li.addEventListener('mouseenter', enterLi)
+            Li.addEventListener('mouseout', saiuLi)
+            function enterLi() {
+                nome.innerText = 'Lítio'
+                Li.style.background = 'red'
+            }
+            function saiuLi() {
+                nome.innerText = 'Tabela periódica'
+                Li.style.background = 'white'
+            }
+            
+            //Berílio
+            Be.addEventListener('mouseenter', enterBe)
+            Be.addEventListener('mouseout', saiuBe)
+            function enterBe() {
+                nome.innerText = 'Berílio'
+                Be.style.background = 'red'
+            }
+            function saiuBe() {
+                nome.innerText = 'Tabela periódica'
+                Be.style.background = 'white'
+            }
+
+            //Boro
+            B.addEventListener('mouseenter', enterB)
+            B.addEventListener('mouseout', saiuB)
+            function enterB() {
+                nome.innerText = 'Boro'
+                B.style.background = 'red'
+            }
+            function saiuB() {
+                nome.innerText = 'Tabela periódica'
+                B.style.background = 'white'
+            }
+
+            //Carbono
+            C.addEventListener('mouseenter', enterC)
+            C.addEventListener('mouseout', saiuC)
+            function enterC() {
+                nome.innerText = 'Carbono'
+                C.style.background = 'red'
+            }
+            function saiuC() {
+                nome.innerText = 'Tabela periódica'
+                C.style.background = 'white'
+            }
+
+            //Nitrogênio
+            N.addEventListener('mouseenter', enterN)
+            N.addEventListener('mouseout', saiuN)
+            function enterN() {
+                nome.innerText = 'Nitrogênio'
+                N.style.background = 'red'
+            }
+            function saiuN() {
+                nome.innerText = 'Tabela periódica'
+                N.style.background = 'white'
+            }
+
+            //Oxigênio
+            O.addEventListener('mouseenter', enterO)
+            O.addEventListener('mouseout', saiuO)
+            function enterO() {
+                nome.innerText = 'Oxigênio'
+                O.style.background = 'red'
+            }
+            function saiuO() {
+                nome.innerText = 'Tabela periódica'
+                O.style.background = 'white'
+            }
+
+            //Flúor
+            F.addEventListener('mouseenter', enterF)
+            F.addEventListener('mouseout', saiuF)
+            function enterF() {
+                nome.innerText = 'Flúor'
+                F.style.background = 'red'
+            }
+            function saiuF() {
+                nome.innerText = 'Tabela periódica'
+                F.style.background = 'white'
+            }
+            
+            //Néon
+            Ne.addEventListener('mouseenter', enterNe)
+            Ne.addEventListener('mouseout', saiuNe)
+            function enterNe() {
+                nome.innerText = 'Néon'
+                Ne.style.background = 'red'
+            }
+            function saiuNe() {
+                nome.innerText = 'Tabela periódica'
+                Ne.style.background = 'white'
+            }
+        </script>
     </main>
     <footer>
         <p>Site Criado por Claudiofdev para curso!</p>

@@ -53,10 +53,6 @@ td.vazia {
     border: none;
 }
 
-div > td:hover {
-    background-color: red;
-}
-
 footer {
     width: 96vw;
     padding: 5px;
