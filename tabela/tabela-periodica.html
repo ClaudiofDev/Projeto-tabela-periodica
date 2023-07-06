@@ -41,24 +41,24 @@
                 <td id="Ar">Ar</td>
             </tr>
             <tr>
-                <td class="h">K</td>
-                <td class="h">Ca</td>
-                <td class="h">Sc</td>
-                <td class="h">ti</td>
-                <td class="h">V</td>
-                <td class="h">Cr</td>
-                <td class="h">Mn</td>
-                <td class="h">Fe</td>
-                <td class="h">Co</td>
-                <td class="h">Ni</td>
-                <td class="h">Cu</td>
-                <td class="h">Zn</td>
-                <td class="h">Ga</td>
-                <td class="h">Ge</td>
-                <td class="h">As</td>
-                <td class="h">Se</td>
-                <td class="h">Br</td>
-                <td class="h">Kr</td>
+                <td id="K">K</td>
+                <td id="Ca">Ca</td>
+                <td id="Sc">Sc</td>
+                <td id="ti">ti</td>
+                <td id="V">V</td>
+                <td id="Cr">Cr</td>
+                <td id="Mn">Mn</td>
+                <td id="Fe">Fe</td>
+                <td id="Co">Co</td>
+                <td id="Ni">Ni</td>
+                <td id="Cu">Cu</td>
+                <td id="Zn">Zn</td>
+                <td id="Ga">Ga</td>
+                <td id="Ge">Ge</td>
+                <td id="As">As</td>
+                <td id="Se">Se</td>
+                <td id="Br">Br</td>
+                <td id="Kr">Kr</td>
             </tr>
             <tr>
                 <td class="h">Rb</td>
@@ -143,6 +143,7 @@
             var nome = window.document.getElementById('nome')
             var H = window.document.getElementById('H')
             var h = window.document.getElementById('h')
+
             var Li = window.document.getElementById('Li')
             var Be = window.document.getElementById('Be')
             var B = window.document.getElementById('B')
@@ -160,6 +161,26 @@
             var S =  window.document.getElementById('S')
             var Cl =  window.document.getElementById('Cl')
             var Ar =  window.document.getElementById('Ar')
+            
+            var K =  window.document.getElementById('K')
+            var Ca =  window.document.getElementById('Ca')
+            var Sc =  window.document.getElementById('Sc')
+            var ti =  window.document.getElementById('ti')
+            var V =  window.document.getElementById('V')
+            var Cr =  window.document.getElementById('Cr')
+            var Mn =  window.document.getElementById('Mn')
+            var Fe =  window.document.getElementById('Fe')
+            var Co =  window.document.getElementById('Co')
+            var Ni =  window.document.getElementById('Ni')
+            var Cu =  window.document.getElementById('Cu')
+            var Zn =  window.document.getElementById('Zn')
+            var Ga =  window.document.getElementById('Ga')
+            var Ge =  window.document.getElementById('Ge')
+            var As =  window.document.getElementById('As')
+            var Se =  window.document.getElementById('Se')
+            var Br =  window.document.getElementById('Br')
+            var Kr =  window.document.getElementById('Kr')
+
             
             //Hidrogênio
             H.addEventListener('mouseenter', enterH)
@@ -377,6 +398,223 @@
                 nome.innerText = 'Tabela periódica'
                 Ar.style.background = 'white'
             }
+
+            //Potássio
+            K.addEventListener('mouseenter', enterK)
+            K.addEventListener('mouseout', saiuK)
+            function enterK() {
+                nome.innerText = 'Potássio'
+                K.style.background = 'red'
+            }
+            function saiuK() {
+                nome.innerText = 'Tabela periódica'
+                K.style.background = 'white'
+            }
+
+            //Cálcio
+            Ca.addEventListener('mouseenter', enterCa)
+            Ca.addEventListener('mouseout', saiuCa)
+            function enterCa() {
+                nome.innerText = 'Cálcio'
+                Ca.style.background = 'red'
+            }
+            function saiuCa() {
+                nome.innerText = 'Tabela periódica'
+                Ca.style.background = 'white'
+            }
+
+            //Escândio
+            Sc.addEventListener('mouseenter', enterSc)
+            Sc.addEventListener('mouseout', saiuSc)
+            function enterSc() {
+                nome.innerText = 'Escândio'
+                Sc.style.background = 'red'
+            }
+            function saiuSc() {
+                nome.innerText = 'Tabela periódica'
+                Sc.style.background = 'white'
+            }
+
+            //Titânio
+            ti.addEventListener('mouseenter', enterti)
+            ti.addEventListener('mouseout', saiuti)
+            function enterti() {
+                nome.innerText = 'Titânio'
+                ti.style.background = 'red'
+            }
+            function saiuti() {
+                nome.innerText = 'Tabela periódica'
+                ti.style.background = 'white'
+            }
+
+            //Vanádio
+            V.addEventListener('mouseenter', enterV)
+            V.addEventListener('mouseout', saiuV)
+            function enterV() {
+                nome.innerText = 'Vanádio'
+                V.style.background = 'red'
+            }
+            function saiuV() {
+                nome.innerText = 'Tabela periódica'
+                V.style.background = 'white'
+            }
+
+            //Cromo
+            Cr.addEventListener('mouseenter', enterCr)
+            Cr.addEventListener('mouseout', saiuCr)
+            function enterCr() {
+                nome.innerText = 'Cromo'
+                Cr.style.background = 'red'
+            }
+            function saiuCr() {
+                nome.innerText = 'Tabela periódica'
+                Cr.style.background = 'white'
+            }
+
+            //Manganês
+            Mn.addEventListener('mouseenter', enterMn)
+            Mn.addEventListener('mouseout', saiuMn)
+            function enterMn() {
+                nome.innerText = 'Manganês'
+                Mn.style.background = 'red'
+            }
+            function saiuMn() {
+                nome.innerText = 'Tabela periódica'
+                Mn.style.background = 'white'
+            }
+
+            //Ferro
+            Fe.addEventListener('mouseenter', enterFe)
+            Fe.addEventListener('mouseout', saiuFe)
+            function enterFe() {
+                nome.innerText = 'Ferro'
+                Fe.style.background = 'red'
+            }
+            function saiuFe() {
+                nome.innerText = 'Tabela periódica'
+                Fe.style.background = 'white'
+            }
+
+            //Cobalto
+            Co.addEventListener('mouseenter', enterCo)
+            Co.addEventListener('mouseout', saiuCo)
+            function enterCo() {
+                nome.innerText = 'Cobalto'
+                Co.style.background = 'red'
+            }
+            function saiuCo() {
+                nome.innerText = 'Tabela periódica'
+                Co.style.background = 'white'
+            }
+
+            //Níquel
+            Ni.addEventListener('mouseenter', enterNi)
+            Ni.addEventListener('mouseout', saiuNi)
+            function enterNi() {
+                nome.innerText = 'Níquel'
+                Ni.style.background = 'red'
+            }
+            function saiuNi() {
+                nome.innerText = 'Tabela periódica'
+                Ni.style.background = 'white'
+            }
+
+            //Cobre
+            Cu.addEventListener('mouseenter', enterCu)
+            Cu.addEventListener('mouseout', saiuCu)
+            function enterCu() {
+                nome.innerText = 'Cobre'
+                Cu.style.background = 'red'
+            }
+            function saiuCu() {
+                nome.innerText = 'Tabela periódica'
+                Cu.style.background = 'white'
+            }
+
+            //Zinco
+            Zn.addEventListener('mouseenter', enterZn)
+            Zn.addEventListener('mouseout', saiuZn)
+            function enterZn() {
+                nome.innerText = 'Zinco'
+                Zn.style.background = 'red'
+            }
+            function saiuZn() {
+                nome.innerText = 'Tabela periódica'
+                Zn.style.background = 'white'
+            }
+
+            //Gálio
+            Ga.addEventListener('mouseenter', enterGa)
+            Ga.addEventListener('mouseout', saiuGa)
+            function enterGa() {
+                nome.innerText = 'Gálio'
+                Ga.style.background = 'red'
+            }
+            function saiuGa() {
+                nome.innerText = 'Tabela periódica'
+                Ga.style.background = 'white'
+            }
+
+            //Germânio
+            Ge.addEventListener('mouseenter', enterGe)
+            Ge.addEventListener('mouseout', saiuGe)
+            function enterGe() {
+                nome.innerText = 'Germânio'
+                Ge.style.background = 'red'
+            }
+            function saiuGe() {
+                nome.innerText = 'Tabela periódica'
+                Ge.style.background = 'white'
+            }
+
+            //Arsênio
+            As.addEventListener('mouseenter', enterAs)
+            As.addEventListener('mouseout', saiuAs)
+            function enterAs() {
+                nome.innerText = 'Arsênio'
+                As.style.background = 'red'
+            }
+            function saiuAs() {
+                nome.innerText = 'Tabela periódica'
+                As.style.background = 'white'
+            }
+
+            //Selênio
+            Se.addEventListener('mouseenter', enterSe)
+            Se.addEventListener('mouseout', saiuSe)
+            function enterSe() {
+                nome.innerText = 'Selênio'
+                Se.style.background = 'red'
+            }
+            function saiuSe() {
+                nome.innerText = 'Tabela periódica'
+                Se.style.background = 'white'
+            }
+
+            //Bromo
+            Br.addEventListener('mouseenter', enterBr)
+            Br.addEventListener('mouseout', saiuBr)
+            function enterBr() {
+                nome.innerText = 'Bromo'
+                Br.style.background = 'red'
+            }
+            function saiuBr() {
+                nome.innerText = 'Tabela periódica'
+                Br.style.background = 'white'
+            }
+
+            //Crípton
+            Kr.addEventListener('mouseenter', enterKr)
+            Kr.addEventListener('mouseout', saiuKr)
+            function enterKr() {
+                nome.innerText = 'Crípton'
+                Kr.style.background = 'red'
+            }
+            function saiuKr(){
+                nome.innerText = 'Tabela periódica'
+                Kr.style.background = 'white'
+            }
+
         </script>
     </main>
     <footer>
