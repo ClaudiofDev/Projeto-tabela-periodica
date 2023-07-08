@@ -15,7 +15,7 @@ body {
 
 header {
     height: 20vh;
-    background-color: rgb(115, 0, 0);
+    background-color: rgb(92, 252, 97);
 }
 
 header > h1 {
@@ -25,43 +25,65 @@ header > h1 {
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(96, 141, 99);
     height: auto;
-    min-width: 300px;
-    min-height: ;
     width: auto;
 }
 
-div {
-    background-color: rgb(171, 250, 35);
-    width: 70px;
-    height: 70px;
-}
-
-table {
-    
+table#principal {
     width: 96vw;
     padding: 20px;
     text-align: center;
     font-size: 1.5em;
 }
 
-td {
+table#principal td {
     padding: auto 20px;
-    
     border: 1px solid black;
-
+    border-radius: 5px;
 }
 
-td.vazia {
+table#principal td.vazia {
     border: none;
+}
+
+table#div {
+    margin: 0px 0px 9px 1px;
+}
+
+table#div td {
+    border: none;
+    background-color: lightgray;
+    border-radius: 0;
+    padding: 1px;
+}
+
+table#div {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    padding: px;
+    font-size: 7px;
+}
+
+table#div th {
+    background-color: rgb(174, 174, 174);
+    padding: 1px;
+}
+
+td#var {
+    padding: 0;
+    margin: 0;
+    
 }
 
 footer {
     width: 100vw;
-    padding: 5px;
+    padding: 5px 0px;
     background-color: rgb(115, 0, 0);
     color: white;
     text-align: center;
-    margin-top: 560px;
+    
 }

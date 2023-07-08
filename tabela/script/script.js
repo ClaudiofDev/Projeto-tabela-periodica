@@ -103,10 +103,12 @@ var nome = window.document.getElementById('nome')
             function enterH() {
                 nome.innerText = 'Hidrogênio'
                 H.style.background = 'red'
+                es.innerText = 'Hidrogênio'
             }
             function saiuH() {
                 nome.innerText = 'Tabela periódica'
                 H.style.background = 'white'
+                es.innerText = 'Especificações'
             }
 
             //Hélio
