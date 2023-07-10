@@ -7,149 +7,122 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body onload="carregar()">
-    <header>
-        <h1>Tabela Periodica</h1>
-    </header>
     <main>
         
         <table id="principal">
             
-            <tr>
-                <td id="H">H</td>
-                <td class="vazia"></td>
-                <td colspan="10" id="nome">Tabela periódica</td>
-                <td colspan="5" class="vazia"></td>
+            <tr class="a">
+                <td id="H" rowspan="2">H</td>
+                <td class="vazia" rowspan="2"></td>
+                <td colspan="10" rowspan="2" id="nome">Tabela periódica</td>
+                <td colspan="5" rowspan="2" class="vazia"></td>
                 <td id="h">He</td>
             </tr>
-            <tr>
-                <td id="Li">Li</td>
-                <td id="Be">Be</td>
-                <td colspan="10" rowspan="2" id="var">
-                    <table id="var">
-                        <tr>
-                            <th id="le" rowspan="5"></th>
-                        </tr>
-                        <tr class="esp">
-                            <td>Símbolo</td>
-                            <td id="sim"></td>
-                        </tr>
-                        <tr class="esp">
-                            <td>Número atômico</td>
-                            <td id="sim"></td>
-                        </tr>
-                        <tr class="esp">
-                            <td>Massa atômica</td>
-                            <td id="sim"></td>
-                        </tr>
-                        <tr class="esp">
-                            <td>Configuração eletrônica</td>
-                            <td id="sim"></td>
-                        </tr>
-                    </table>
-                </td>
-                <td id="B">B</td>
-                <td id="C">C</td>
-                <td id="N">N</td>
-                <td id="O">O</td>
-                <td id="F">F</td>
-                <td id="Ne">Ne</td>
+            <tr class="a">
+                <td id="Li" rowspan="2">Li</td>
+                <td id="Be" rowspan="2">Be</td>
+                <td colspan="4" rowspan="4"></td>
+                <td id="B" rowspan="2">B</td>
+                <td id="C" rowspan="2">C</td>
+                <td id="N" rowspan="2">N</td>
+                <td id="O" rowspan="2">O</td>
+                <td id="F" rowspan="2">F</td>
+                <td id="Ne" rowspan="2">Ne</td>
             </tr>
-            <tr>
-                <td id="Na">Na</td>
-                <td id="Mg">Mg</td>
-                <td id="Al">Al</td>
-                <td id="Si">Si</td>
-                <td id="P">P</td>
-                <td id="S">S</td>
-                <td id="Cl">Cl</td>
-                <td id="Ar">Ar</td>
+            <tr class="a">
+                <td id="Na" rowspan="2">Na</td>
+                <td id="Mg" rowspan="2">Mg</td>
+                <td colspan="8" rowspan="4"></td>
+                <td id="Al" rowspan="2">Al</td>
+                <td id="Si" rowspan="2">Si</td>
+                <td id="P" rowspan="2">P</td>
+                <td id="S" rowspan="2">S</td>
+                <td id="Cl" rowspan="2">Cl</td>
+                <td id="Ar" rowspan="2">Ar</td>
             </tr>
-            <tr>
-                <td id="K">K</td>
-                <td id="Ca">Ca</td>
-                <td id="Sc">Sc</td>
-                <td id="ti">ti</td>
-                <td id="V">V</td>
-                <td id="Cr">Cr</td>
-                <td id="Mn">Mn</td>
-                <td id="Fe">Fe</td>
-                <td id="Co">Co</td>
-                <td id="Ni">Ni</td>
-                <td id="Cu">Cu</td>
-                <td id="Zn">Zn</td>
-                <td id="Ga">Ga</td>
-                <td id="Ge">Ge</td>
-                <td id="As">As</td>
-                <td id="Se">Se</td>
-                <td id="Br">Br</td>
-                <td id="Kr">Kr</td>
+            <tr class="a">
+                <td id="K" rowspan="2">K</td>
+                <td id="Ca" rowspan="2">Ca</td>
+                <td id="Sc" rowspan="2">Sc</td>
+                <td id="ti" rowspan="2">ti</td>
+                <td id="V" rowspan="2">V</td>
+                <td id="Cr" rowspan="2">Cr</td>
+                <td id="Mn" rowspan="2">Mn</td>
+                <td id="Fe" rowspan="2">Fe</td>
+                <td id="Co" rowspan="2">Co</td>
+                <td id="Ni" rowspan="2">Ni</td>
+                <td id="Cu" rowspan="2">Cu</td>
+                <td id="Zn" rowspan="2">Zn</td>
+                <td id="Ga" rowspan="2">Ga</td>
+                <td id="Ge" rowspan="2">Ge</td>
+                <td id="As" rowspan="2">As</td>
+                <td id="Se" rowspan="2">Se</td>
+                <td id="Br" rowspan="2">Br</td>
+                <td id="Kr" rowspan="2">Kr</td>
             </tr>
-            <tr>
-                <td id="Rb">Rb</td>
-                <td id="Sr">Sr</td>
-                <td id="Y">Y</td>
-                <td id="Zr">Zr</td>
-                <td id="Nb">Nb</td>
-                <td id="Mo">Mo</td>
-                <td id="Tc">Tc</td>
-                <td id="Ru">Ru</td>
-                <td id="Rh">Rh</td>
-                <td id="Pd">Pd</td>
-                <td id="Ag">Ag</td>
-                <td id="Cd">Cd</td>
-                <td id="In">In</td>
-                <td id="Sn">Sn</td>
-                <td id="Sb">Sb</td>
-                <td id="Te">Te</td>
-                <td id="I">I</td>
-                <td id="Xe">Xe</td>
+            <tr class="a">
+                <td id="Rb" rowspan="2">Rb</td>
+                <td id="Sr" rowspan="2">Sr</td>
+                <td id="Y" rowspan="2">Y</td>
+                <td id="Zr" rowspan="2">Zr</td>
+                <td id="Nb" rowspan="2">Nb</td>
+                <td id="Mo" rowspan="2">Mo</td>
+                <td id="Tc" rowspan="2">Tc</td>
+                <td id="Ru" rowspan="2">Ru</td>
+                <td id="Rh" rowspan="2">Rh</td>
+                <td id="Pd" rowspan="2">Pd</td>
+                <td id="Ag" rowspan="2">Ag</td>
+                <td id="Cd" rowspan="2">Cd</td>
+                <td id="In" rowspan="2">In</td>
+                <td id="Sn" rowspan="2">Sn</td>
+                <td id="Sb" rowspan="2">Sb</td>
+                <td id="Te" rowspan="2">Te</td>
+                <td id="I" rowspan="2">I</td>
+                <td id="Xe" rowspan="2">Xe</td>
             </tr>
-            <tr>
-                <td id="Cs">Cs</td>
-                <td id="Ba">Ba</td>
-                <td id="Lu">Lu</td>
-                <td id="Hf">Hf</td>
-                <td id="Ta">Ta</td>
-                <td id="W">W</td>
-                <td id="Re">Re</td>
-                <td id="Os">Os</td>
-                <td id="Ir">Ir</td>
-                <td id="Pt">Pt</td>
-                <td id="Au">Au</td>
-                <td id="Hg">Hg</td>
-                <td id="Tl">Tl</td>
-                <td id="Pb">Pb</td>
-                <td id="Bi">Bi</td>
-                <td id="Po">Po</td>
-                <td id="At">At</td>
-                <td id="Rn">Rn</td>
+            <tr class="a">
+                <td id="Cs" rowspan="2">Cs</td>
+                <td id="Ba" rowspan="2">Ba</td>
+                <td id="Lu" rowspan="2">Lu</td>
+                <td id="Hf" rowspan="2">Hf</td>
+                <td id="Ta" rowspan="2">Ta</td>
+                <td id="W" rowspan="2">W</td>
+                <td id="Re" rowspan="2">Re</td>
+                <td id="Os" rowspan="2">Os</td>
+                <td id="Ir" rowspan="2">Ir</td>
+                <td id="Pt" rowspan="2">Pt</td>
+                <td id="Au" rowspan="2">Au</td>
+                <td id="Hg" rowspan="2">Hg</td>
+                <td id="Tl" rowspan="2">Tl</td>
+                <td id="Pb" rowspan="2">Pb</td>
+                <td id="Bi" rowspan="2">Bi</td>
+                <td id="Po" rowspan="2">Po</td>
+                <td id="At" rowspan="2">At</td>
+                <td id="Rn" rowspan="2">Rn</td>
             </tr>
-            <tr>
-                <td id="Fr">Fr</td>
-                <td id="Ra">Ra</td>
-                <td id="Lr">Lr</td>
-                <td id="Rf">Rf</td>
-                <td id="Db">Db</td>
-                <td id="Sg">Sg</td>
-                <td id="Bh">Bh</td>
-                <td id="Hs">Hs</td>
-                <td id="Mt">Mt</td>
-                <td id="Ds">Ds</td>
-                <td id="Rg">Rg</td>
-                <td id="Cn">Cn</td>
-                <td id="Nh">Nh</td>
-                <td id="Fl">Fl</td>
-                <td id="Mc">Mc</td>
-                <td id="Lv">Lv</td>
-                <td id="Ts">Ts</td>
-                <td id="Og">Og</td>
+            <tr class="a">
+                <td id="Fr" rowspan="2">Fr</td>
+                <td id="Ra" rowspan="2">Ra</td>
+                <td id="Lr" rowspan="2">Lr</td>
+                <td id="Rf" rowspan="2">Rf</td>
+                <td id="Db" rowspan="2">Db</td>
+                <td id="Sg" rowspan="2">Sg</td>
+                <td id="Bh" rowspan="2">Bh</td>
+                <td id="Hs" rowspan="2">Hs</td>
+                <td id="Mt" rowspan="2">Mt</td>
+                <td id="Ds" rowspan="2">Ds</td>
+                <td id="Rg" rowspan="2">Rg</td>
+                <td id="Cn" rowspan="2">Cn</td>
+                <td id="Nh" rowspan="2">Nh</td>
+                <td id="Fl" rowspan="2">Fl</td>
+                <td id="Mc" rowspan="2">Mc</td>
+                <td id="Lv" rowspan="2">Lv</td>
+                <td id="Ts" rowspan="2">Ts</td>
+                <td id="Og" rowspan="2">Og</td>
             </tr>
 
         </table>
         <script src="script/script.js"></script>
     </main>
-    <footer>
-        <p>Site Criado por Claudiofdev para curso!</p>
-    </footer>
 </body>
 </html>

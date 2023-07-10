@@ -97,6 +97,10 @@ var Ts = window.document.getElementById('Ts')
 var Og = window.document.getElementById('Og')
 
 var le = window.document.getElementById('le')
+var si = window.document.getElementById('si')
+var na = window.document.getElementById('na')
+var ma = window.document.getElementById('ma')
+var ce = window.document.getElementById('ce')
 
 function carregar() {
     le.style.background = 'white'
@@ -110,6 +114,10 @@ function enterH() {
     nome.innerText = 'Hidrogênio'
     H.style.background = 'red'
     le.innerText = 'H'
+    si.innerText = 'H'
+    na.innerText = '1'
+    ma.innerText = '1.008'
+    ce.innerText = '1s¹'
 }
 function saiuH() {
     nome.innerText = 'Tabela periódica'
