@@ -6,7 +6,7 @@
     <title>Tabela Periodica</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Tabela Periodica</h1>
     </header>
@@ -25,25 +25,25 @@
                 <td id="Li">Li</td>
                 <td id="Be">Be</td>
                 <td colspan="10" rowspan="2" id="var">
-                    <table id="div">
+                    <table id="var">
                         <tr>
-                            <th id="es" colspan="2">Especificações</th>
+                            <th id="le" rowspan="5"></th>
                         </tr>
-                        <tr>
-                            <td>especif1</td>
-                            <td >Especificação2</td>
+                        <tr class="esp">
+                            <td>Símbolo</td>
+                            <td id="sim"></td>
                         </tr>
-                        <tr>
-                            <td>especif3</td>
-                            <td >especificação4</td>
+                        <tr class="esp">
+                            <td>Número atômico</td>
+                            <td id="sim"></td>
                         </tr>
-                        <tr>
-                            <td>especif3</td>
-                            <td >especificação4</td>
+                        <tr class="esp">
+                            <td>Massa atômica</td>
+                            <td id="sim"></td>
                         </tr>
-                        <tr>
-                            <td>especif3</td>
-                            <td >especificação4</td>
+                        <tr class="esp">
+                            <td>Configuração eletrônica</td>
+                            <td id="sim"></td>
                         </tr>
                     </table>
                 </td>

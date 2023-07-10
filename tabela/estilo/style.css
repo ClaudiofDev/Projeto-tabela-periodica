@@ -25,7 +25,7 @@ header > h1 {
 }
 
 main {
-    background-color: rgb(96, 141, 99);
+    background-color: lightgrey;
     height: auto;
     width: auto;
 }
@@ -48,7 +48,7 @@ table#principal td.vazia {
 }
 
 table#div {
-    margin: 0px 0px 9px 1px;
+    margin: 0px 0px 0px 1px;
 }
 
 table#div td {
@@ -61,18 +61,34 @@ table#div td {
 table#div {
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 100px;
-    height: 60px;
+    width: 85px;
+    height: 69px;
     border-radius: 5px;
-    padding: px;
-    font-size: 7px;
+    font-size: 6.7px;
 }
 
-table#div th {
-    background-color: rgb(174, 174, 174);
-    padding: 1px;
+tr.esp {
+    margin-left: 190px;
+    font-size: 6.7px;
 }
 
+table#var th {
+    border-radius: 5px;
+}
+
+table#var td {
+    border: none;
+    font-family: arial;
+    background-color: lightgrey;
+    border-radius: 0px;
+    
+}
+
+th#le {
+    width: 70px;
+    height: 65px;    
+}
+    
 td#var {
     padding: 0;
     margin: 0;
