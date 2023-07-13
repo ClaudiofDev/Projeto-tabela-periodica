@@ -6,17 +6,62 @@
     
 }
 
-main {
-    
+#vazia {
+    border: none;
 }
 
 table#var {
     font-size: 8px;
 }
 
+td#cinza {
+    background-color: lightgrey;
+}
+
+.verdeM {
+    background-color: rgb(84, 169, 170);
+}
+
+.scor {
+    background-color: rgb(84, 103, 148);
+}
+
+.azulC {
+    background-color: lightblue;
+}
+
+.azul {
+    background-color: rgb(76, 144, 252);
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.verde {
+    background-color: lightgreen;
+}
+
+td#le {
+    
+}
+
+td.val {
+    font-size: 8px;
+    padding-left: 40px;
+}
+
 tr.a > td {
     text-align: center;
     border: 1px solid black;
     border-radius: 4px;
-    font-size: 21px;
+    font-size: 25px;
 }

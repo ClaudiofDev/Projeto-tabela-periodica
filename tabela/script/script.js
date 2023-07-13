@@ -23,7 +23,7 @@ var Ar =  window.document.getElementById('Ar')
 var K =  window.document.getElementById('K')
 var Ca =  window.document.getElementById('Ca')
 var Sc =  window.document.getElementById('Sc')
-var ti =  window.document.getElementById('ti')
+var Ti =  window.document.getElementById('Ti')
 var V =  window.document.getElementById('V')
 var Cr =  window.document.getElementById('Cr')
 var Mn =  window.document.getElementById('Mn')
@@ -118,11 +118,17 @@ function enterH() {
     na.innerText = '1'
     ma.innerText = '1.008'
     ce.innerText = '1s¹'
+    
 }
 function saiuH() {
     nome.innerText = 'Tabela periódica'
-    H.style.background = 'lightgray'
+    H.style.background = 'green'
     le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
+
 }
 
 //Hélio
@@ -131,12 +137,20 @@ h.addEventListener('mouseout', saiuh)
 function enterh() {
     nome.innerText = 'Hélio'
     h.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'He'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuh() {
     nome.innerText = 'Tabela periódica'
-    h.style.background = 'lightgray'
-    le.innerText = ''
+    h.style.background = 'rgb(76, 144, 252)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Lítio
@@ -145,12 +159,20 @@ Li.addEventListener('mouseout', saiuLi)
 function enterLi() {
     nome.innerText = 'Lítio'
     Li.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Li'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuLi() {
     nome.innerText = 'Tabela periódica'
-    Li.style.background = 'lightgray'
-    le.innerText = ''
+    Li.style.background = 'orange'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Berílio
@@ -159,12 +181,20 @@ Be.addEventListener('mouseout', saiuBe)
 function enterBe() {
     nome.innerText = 'Berílio'
     Be.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Be'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuBe() {
     nome.innerText = 'Tabela periódica'
-    Be.style.background = 'lightgray'
-    le.innerText = ''
+    Be.style.background = 'yellow'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Boro
@@ -173,12 +203,20 @@ B.addEventListener('mouseout', saiuB)
 function enterB() {
     nome.innerText = 'Boro'
     B.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'B'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuB() {
     nome.innerText = 'Tabela periódica'
-    B.style.background = 'lightgray'
-    le.innerText = ''
+    B.style.background = 'rgb(84, 169, 170)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Carbono
@@ -187,12 +225,20 @@ C.addEventListener('mouseout', saiuC)
 function enterC() {
     nome.innerText = 'Carbono'
     C.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'C'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuC() {
     nome.innerText = 'Tabela periódica'
-    C.style.background = 'lightgray'
-    le.innerText = ''
+    C.style.background = 'lightgreen'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Nitrogênio
@@ -201,12 +247,20 @@ N.addEventListener('mouseout', saiuN)
 function enterN() {
     nome.innerText = 'Nitrogênio'
     N.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'N'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuN() {
     nome.innerText = 'Tabela periódica'
-    N.style.background = 'lightgray'
-    le.innerText = ''
+    N.style.background = 'lightgreen'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Oxigênio
@@ -215,12 +269,20 @@ O.addEventListener('mouseout', saiuO)
 function enterO() {
     nome.innerText = 'Oxigênio'
     O.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'O'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuO() {
     nome.innerText = 'Tabela periódica'
-    O.style.background = 'lightgray'
-    le.innerText = ''
+    O.style.background = 'lightgreen'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Flúor
@@ -229,12 +291,20 @@ F.addEventListener('mouseout', saiuF)
 function enterF() {
     nome.innerText = 'Flúor'
     F.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'F'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuF() {
     nome.innerText = 'Tabela periódica'
-    F.style.background = 'lightgray'
-    le.innerText = ''
+    F.style.background = 'lightblue'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Néon
@@ -243,13 +313,21 @@ Ne.addEventListener('mouseout', saiuNe)
 function enterNe() {
     nome.innerText = 'Néon'
     Ne.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ne'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuNe() {
 
     nome.innerText = 'Tabela periódica'
-    Ne.style.background = 'lightgray'
-    le.innerText = ''
+    Ne.style.background = 'rgb(76, 144, 252)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Sódio
@@ -258,12 +336,20 @@ Na.addEventListener('mouseout', saiuNa)
 function enterNa() {
     nome.innerText = 'Sódio'
     Na.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Na'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuNa() {
     nome.innerText = 'Tabela periódica'
-    Na.style.background = 'lightgray'
-    le.innerText = ''
+    Na.style.background = 'orange'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Magnésio
@@ -272,12 +358,20 @@ Mg.addEventListener('mouseout', saiuMg)
 function enterMg() {
     nome.innerText = 'Magnésio'
     Mg.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Mg'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuMg() {
     nome.innerText = 'Tabela periódica'
-    Mg.style.background = 'lightgray'
-    le.innerText = ''
+    Mg.style.background = 'yellow'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Alumínio
@@ -286,12 +380,20 @@ Al.addEventListener('mouseout', saiuAl)
 function enterAl() {
     nome.innerText = 'Alumínio'
     Al.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Al'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuAl() {
     nome.innerText = 'Tabela periódica'
-    Al.style.background = 'lightgray'
-    le.innerText = ''
+    Al.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Silício
@@ -300,12 +402,20 @@ Si.addEventListener('mouseout', saiuSi)
 function enterSi() {
     nome.innerText = 'Silício'
     Si.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Si'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuSi() {
     nome.innerText = 'Tabela periódica'
-    Si.style.background = 'lightgray'
-    le.innerText = ''
+    Si.style.background = 'rgb(84, 169, 170)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Fósforo
@@ -314,12 +424,20 @@ P.addEventListener('mouseout', saiuP)
 function enterP() {
     nome.innerText = 'Fósforo'
     P.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'P'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuP() {
     nome.innerText = 'Tabela periódica'
-    P.style.background = 'lightgray'
-    le.innerText = ''
+    P.style.background = 'lightgreen'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Enxofre
@@ -328,12 +446,20 @@ S.addEventListener('mouseout', saiuS)
 function enterS() {
     nome.innerText = 'Enxofre'
     S.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'S'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuS() {
     nome.innerText = 'Tabela periódica'
-    S.style.background = 'lightgray'
-    le.innerText = ''
+    S.style.background = 'lightgreen'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Cloro
@@ -342,12 +468,20 @@ Cl.addEventListener('mouseout', saiuCl)
 function enterCl() {
     nome.innerText = 'Cloro'
     Cl.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Cl'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCl() {
     nome.innerText = 'Tabela periódica'
-    Cl.style.background = 'lightgray'
-    le.innerText = ''
+    Cl.style.background = 'lightblue'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Árgon
@@ -356,12 +490,20 @@ Ar.addEventListener('mouseout', saiuAr)
 function enterAr() {
     nome.innerText = 'Árgon'
     Ar.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ar'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuAr() {
     nome.innerText = 'Tabela periódica'
-    Ar.style.background = 'lightgray'
-    le.innerText = ''
+    Ar.style.background = 'rgb(76, 144, 252)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Potássio
@@ -370,12 +512,20 @@ K.addEventListener('mouseout', saiuK)
 function enterK() {
     nome.innerText = 'Potássio'
     K.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'K'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuK() {
     nome.innerText = 'Tabela periódica'
-    K.style.background = 'lightgray'
-    le.innerText = ''
+    K.style.background = 'orange'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Cálcio
@@ -384,12 +534,20 @@ Ca.addEventListener('mouseout', saiuCa)
 function enterCa() {
     nome.innerText = 'Cálcio'
     Ca.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ca'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCa() {
     nome.innerText = 'Tabela periódica'
-    Ca.style.background = 'lightgray'
-    le.innerText = ''
+    Ca.style.background = 'yellow'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Escândio
@@ -398,26 +556,42 @@ Sc.addEventListener('mouseout', saiuSc)
 function enterSc() {
     nome.innerText = 'Escândio'
     Sc.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Sr'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuSc() {
     nome.innerText = 'Tabela periódica'
-    Sc.style.background = 'lightgray'
-    le.innerText = ''
+    Sc.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Titânio
-ti.addEventListener('mouseenter', enterti)
-ti.addEventListener('mouseout', saiuti)
-function enterti() {
+Ti.addEventListener('mouseenter', enterTi)
+Ti.addEventListener('mouseout', saiuTi)
+function enterTi() {
     nome.innerText = 'Titânio'
-    ti.style.background = 'red'
-    le.innerText = ''
+    Ti.style.background = 'red'
+    le.innerText = 'Ti'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
-function saiuti() {
+function saiuTi() {
     nome.innerText = 'Tabela periódica'
-    ti.style.background = 'lightgray'
-    le.innerText = ''
+    Ti.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Vanádio
@@ -426,12 +600,20 @@ V.addEventListener('mouseout', saiuV)
 function enterV() {
     nome.innerText = 'Vanádio'
     V.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'V'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuV() {
     nome.innerText = 'Tabela periódica'
-    V.style.background = 'lightgray'
-    le.innerText = ''
+    V.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Cromo
@@ -440,12 +622,20 @@ Cr.addEventListener('mouseout', saiuCr)
 function enterCr() {
     nome.innerText = 'Cromo'
     Cr.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Cr'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCr() {
     nome.innerText = 'Tabela periódica'
-    Cr.style.background = 'lightgray'
-    le.innerText = ''
+    Cr.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Manganês
@@ -454,12 +644,20 @@ Mn.addEventListener('mouseout', saiuMn)
 function enterMn() {
     nome.innerText = 'Manganês'
     Mn.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Mn'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuMn() {
     nome.innerText = 'Tabela periódica'
-    Mn.style.background = 'lightgray'
-    le.innerText = ''
+    Mn.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Ferro
@@ -468,12 +666,20 @@ Fe.addEventListener('mouseout', saiuFe)
 function enterFe() {
     nome.innerText = 'Ferro'
     Fe.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Fe'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuFe() {
     nome.innerText = 'Tabela periódica'
-    Fe.style.background = 'lightgray'
-    le.innerText = ''
+    Fe.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Cobalto
@@ -482,12 +688,20 @@ Co.addEventListener('mouseout', saiuCo)
 function enterCo() {
     nome.innerText = 'Cobalto'
     Co.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Co'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCo() {
     nome.innerText = 'Tabela periódica'
-    Co.style.background = 'lightgray'
-    le.innerText = ''
+    Co.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Níquel
@@ -496,12 +710,20 @@ Ni.addEventListener('mouseout', saiuNi)
 function enterNi() {
     nome.innerText = 'Níquel'
     Ni.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ni'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuNi() {
     nome.innerText = 'Tabela periódica'
-    Ni.style.background = 'lightgray'
-    le.innerText = ''
+    Ni.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Cobre
@@ -510,12 +732,20 @@ Cu.addEventListener('mouseout', saiuCu)
 function enterCu() {
     nome.innerText = 'Cobre'
     Cu.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Cu'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCu() {
     nome.innerText = 'Tabela periódica'
-    Cu.style.background = 'lightgray'
-    le.innerText = ''
+    Cu.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Zinco
@@ -524,12 +754,20 @@ Zn.addEventListener('mouseout', saiuZn)
 function enterZn() {
     nome.innerText = 'Zinco'
     Zn.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Zn'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuZn() {
     nome.innerText = 'Tabela periódica'
-    Zn.style.background = 'lightgray'
-    le.innerText = ''
+    Zn.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Gálio
@@ -538,12 +776,20 @@ Ga.addEventListener('mouseout', saiuGa)
 function enterGa() {
     nome.innerText = 'Gálio'
     Ga.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ga'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuGa() {
     nome.innerText = 'Tabela periódica'
-    Ga.style.background = 'lightgray'
-    le.innerText = ''
+    Ga.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Germânio
@@ -552,12 +798,20 @@ Ge.addEventListener('mouseout', saiuGe)
 function enterGe() {
     nome.innerText = 'Germânio'
     Ge.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ge'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuGe() {
     nome.innerText = 'Tabela periódica'
-    Ge.style.background = 'lightgray'
-    le.innerText = ''
+    Ge.style.background = 'rgb(84, 169, 170)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Arsênio
@@ -566,12 +820,20 @@ As.addEventListener('mouseout', saiuAs)
 function enterAs() {
     nome.innerText = 'Arsênio'
     As.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'As'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuAs() {
     nome.innerText = 'Tabela periódica'
-    As.style.background = 'lightgray'
-    le.innerText = ''
+    As.style.background = 'rgb(84, 169, 170)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Selênio
@@ -580,12 +842,20 @@ Se.addEventListener('mouseout', saiuSe)
 function enterSe() {
     nome.innerText = 'Selênio'
     Se.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Se'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuSe() {
     nome.innerText = 'Tabela periódica'
-    Se.style.background = 'lightgray'
-    le.innerText = ''
+    Se.style.background = 'lightgreen'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Bromo
@@ -594,12 +864,20 @@ Br.addEventListener('mouseout', saiuBr)
 function enterBr() {
     nome.innerText = 'Bromo'
     Br.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Br'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuBr() {
     nome.innerText = 'Tabela periódica'
-    Br.style.background = 'lightgray'
-    le.innerText = ''
+    Br.style.background = 'lightblue'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Crípton
@@ -608,12 +886,20 @@ Kr.addEventListener('mouseout', saiuKr)
 function enterKr() {
     nome.innerText = 'Crípton'
     Kr.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Kr'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuKr(){
     nome.innerText = 'Tabela periódica'
-    Kr.style.background = 'lightgray'
-    le.innerText = ''
+    Kr.style.background = 'rgb(76, 144, 252)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Rubídio
@@ -622,12 +908,20 @@ Rb.addEventListener('mouseout', saiuRb)
 function enterRb() {
     nome.innerText = 'Rubídio'
     Rb.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Rb'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRb() {
     nome.innerText = 'Tabela periódica'
-    Rb.style.background = 'lightgray'
-    le.innerText = ''
+    Rb.style.background = 'orange'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Estrôncio
@@ -636,12 +930,20 @@ Sr.addEventListener('mouseout', saiuSr)
 function enterSr() {
     nome.innerText = 'Estrôncio'
     Sr.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Sr'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuSr() {
     nome.innerText = 'Tabela periódica'
-    Sr.style.background = 'lightgray'
-    le.innerText = ''
+    Sr.style.background = 'yellow'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Ítrio
@@ -650,12 +952,20 @@ Y.addEventListener('mouseout', saiuY)
 function enterY() {
     nome.innerText = 'Ítrio'
     Y.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Y'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuY() {
     nome.innerText = 'Tabela periódica'
-    Y.style.background = 'lightgray'
-    le.innerText = ''
+    Y.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Zircônio
@@ -664,12 +974,20 @@ Zr.addEventListener('mouseout', saiuZr)
 function enterZr(){
     nome.innerText = 'Zircônio'
     Zr.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Zr'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuZr(){
     nome.innerText = 'Tabela periódica'
-    Zr.style.background = 'lightgray'
-    le.innerText = ''
+    Zr.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Nióbio
@@ -678,12 +996,20 @@ Nb.addEventListener('mouseout', saiuNb)
 function enterNb() {
     nome.innerText = 'Nióbio'
     Nb.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Nb'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuNb() {
     nome.innerText = 'Tabela periódica'
-    Nb.style.background = 'lightgray'
-    le.innerText = ''
+    Nb.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Molibdênio
@@ -692,12 +1018,20 @@ Mo.addEventListener('mouseout', saiuMo)
 function enterMo() {
     nome.innerText = 'Molibdênio'
     Mo.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Mo'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuMo() {
     nome.innerText = 'Tabela periódica'
-    Mo.style.background = 'lightgray'
-    le.innerText = ''
+    Mo.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Tecnécio
@@ -706,12 +1040,20 @@ Tc.addEventListener('mouseout', saiuTc)
 function enterTc() {
     nome.innerText = 'Tecnécio'
     Tc.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Tc'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuTc() {
     nome.innerText = 'Tabela periódica'
-    Tc.style.background = 'lightgray'
-    le.innerText = ''
+    Tc.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Rutênio
@@ -720,12 +1062,20 @@ Ru.addEventListener('mouseout', saiuRu)
 function enterRu() {
     nome.innerText = 'Rutênio'
     Ru.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ru'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRu() {
     nome.innerText = 'Tabela periódica'
-    Ru.style.background = 'lightgray'
-    le.innerText = ''
+    Ru.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Ródio
@@ -734,12 +1084,20 @@ Rh.addEventListener('mouseout', saiuRh)
 function enterRh() {
     nome.innerText = 'Ródio'
     Rh.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Rh'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRh() {
     nome.innerText = 'Tabela periódica'
-    Rh.style.background = 'lightgray'
-    le.innerText = ''
+    Rh.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Paládio
@@ -748,12 +1106,20 @@ Pd.addEventListener('mouseout', saiuPd)
 function enterPd() {
     nome.innerText = 'Paládio'
     Pd.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Pd'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuPd() {
     nome.innerText = 'Tabela periódica'
-    Pd.style.background = 'lightgray'
-    le.innerText = ''
+    Pd.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Prata
@@ -762,12 +1128,20 @@ Ag.addEventListener('mouseout', saiuAg)
 function enterAg() {
     nome.innerText = 'Prata'
     Ag.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ag'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuAg() {
     nome.innerText = 'Tabela periódica'
-    Ag.style.background = 'lightgray'
-    le.innerText = ''
+    Ag.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Cádmio
@@ -776,12 +1150,20 @@ Cd.addEventListener('mouseout', saiuCd)
 function enterCd() {
     nome.innerText = 'Cádmio'
     Cd.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Cd'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCd() {
     nome.innerText = 'Tabela periódica'
-    Cd.style.background = 'lightgray'
-    le.innerText = ''
+    Cd.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Índio
@@ -790,12 +1172,20 @@ In.addEventListener('mouseout', saiuIn)
 function enterIn() {
     nome.innerText = 'Índio'
     In.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'In'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuIn() {
     nome.innerText = 'Tabela periódica'
-    In.style.background = 'lightgray'
-    le.innerText = ''
+    In.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Estanho
@@ -804,12 +1194,20 @@ Sn.addEventListener('mouseout', saiuSn)
 function enterSn() {
     nome.innerText = 'Estanho'
     Sn.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Sn'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuSn() {
     nome.innerText = 'Tabela periódica'
-    Sn.style.background = 'lightgray'
-    le.innerText = ''
+    Sn.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Antimônio
@@ -818,12 +1216,20 @@ Sb.addEventListener('mouseout', saiuSb)
 function enterSb() {
     nome.innerText = 'Antimônio'
     Sb.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Sb'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuSb() {
     nome.innerText = 'Tabela periódica'
-    Sb.style.background = 'lightgray'
-    le.innerText = ''
+    Sb.style.background = 'rgb(84, 169, 170)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Telúrio
@@ -832,12 +1238,20 @@ Te.addEventListener('mouseout', saiuTe)
 function enterTe() {
     nome.innerText = 'Telúrio'
     Te.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Te'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuTe() {
     nome.innerText = 'Tabela periódica'
-    Te.style.background = 'lightgray'
-    le.innerText = ''
+    Te.style.background = 'rgb(84, 169, 170)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Iodo
@@ -846,12 +1260,20 @@ I.addEventListener('mouseout', saiuI)
 function enterI() {
     nome.innerText = 'Iodo'
     I.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'I'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuI() {
     nome.innerText = 'Tabela periódica'
-    I.style.background = 'lightgray'
-    le.innerText = ''
+    I.style.background = 'lightblue'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Xenônio
@@ -860,12 +1282,21 @@ Xe.addEventListener('mouseout', saiuXe)
 function enterXe() {
     nome.innerText = 'Xenônio'
     Xe.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Xe'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
+
 function saiuXe() {
     nome.innerText = 'Tabela periódica'
-    Xe.style.background = 'lightgray'
-    le.innerText = ''
+    Xe.style.background = 'rgb(76, 144, 252)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Césio
@@ -874,12 +1305,20 @@ Cs.addEventListener('mouseout', saiuCs)
 function enterCs() {
     nome.innerText = 'Césio'
     Cs.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Cs'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCs() {
     nome.innerText = 'Tabela periódica'
-    Cs.style.background = 'lightgray'
-    le.innerText = ''
+    Cs.style.background = 'orange'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Bário
@@ -888,12 +1327,20 @@ Ba.addEventListener('mouseout', saiuBa)
 function enterBa() {
     nome.innerText = 'Bário'
     Ba.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ba'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuBa() {
     nome.innerText = 'Tabela periódica'
-    Ba.style.background = 'lightgray'
-    le.innerText = ''
+    Ba.style.background = 'yellow'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Lutécio
@@ -902,12 +1349,20 @@ Lu.addEventListener('mouseout', saiuLu)
 function enterLu() {
     nome.innerText = 'Lutécio'
     Lu.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Lu'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuLu() {
     nome.innerText = 'Tabela periódica'
-    Lu.style.background = 'lightgray'
-    le.innerText = ''
+    Lu.style.background = 'rgb(157, 157, 245)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Háfnio
@@ -916,12 +1371,20 @@ Hf.addEventListener('mouseout', saiuHf)
 function enterHf() {
     nome.innerText = 'Háfnio'
     Hf.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Hf'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuHf() {
     nome.innerText = 'Tabela periódica'
-    Hf.style.background = 'lightgray'
-    le.innerText = ''
+    Hf.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Tântalo
@@ -930,12 +1393,20 @@ Ta.addEventListener('mouseout', saiuTa)
 function enterTa() {
     nome.innerText = 'Tântalo'
     Ta.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ta'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuTa() {
     nome.innerText = 'Tabela periódica'
-    Ta.style.background = 'lightgray'
-    le.innerText = ''
+    Ta.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Tungstênio
@@ -944,12 +1415,20 @@ W.addEventListener('mouseout', saiuW)
 function enterW() {
     nome.innerText = 'Tungstênio'
     W.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'W'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuW() {
     nome.innerText = 'Tabela periódica'
-    W.style.background = 'lightgray'
-    le.innerText = ''
+    W.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Rênio
@@ -958,12 +1437,20 @@ Re.addEventListener('mouseout', saiuRe)
 function enterRe() {
     nome.innerText = 'Rênio'
     Re.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Re'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRe() {
     nome.innerText = 'Tabela periódica'
-    Re.style.background = 'lightgray'
-    le.innerText = ''
+    Re.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Ósmio
@@ -972,12 +1459,20 @@ Os.addEventListener('mouseout', saiuOs)
 function enterOs() {
     nome.innerText = 'Ósmio'
     Os.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Os'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuOs() {
     nome.innerText = 'Tabela periódica'
-    Os.style.background = 'lightgray'
-    le.innerText = ''
+    Os.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Irídio
@@ -986,12 +1481,20 @@ Ir.addEventListener('mouseout', saiuIr)
 function enterIr() {
     nome.innerText = 'Irídio'
     Ir.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ir'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuIr() {
     nome.innerText = 'Tabela periódica'
-    Ir.style.background = 'lightgray'
-    le.innerText = ''
+    Ir.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Platina
@@ -1000,12 +1503,20 @@ Pt.addEventListener('mouseout', saiuPt)
 function enterPt() {
     nome.innerText = 'Platina'
     Pt.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Pt'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuPt() {
     nome.innerText = 'Tabela periódica'
-    Pt.style.background = 'lightgray'
-    le.innerText = ''
+    Pt.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Ouro
@@ -1014,12 +1525,20 @@ Au.addEventListener('mouseout', saiuAu)
 function enterAu() {
     nome.innerText = 'Ouro'
     Au.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Au'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuAu() {
     nome.innerText = 'Tabela periódica'
-    Au.style.background = 'lightgray'
-    le.innerText = ''
+    Au.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Mercúrio
@@ -1028,12 +1547,20 @@ Hg.addEventListener('mouseout', saiuHg)
 function enterHg() {
     nome.innerText = 'Mercúrio'
     Hg.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Hg'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuHg() {
     nome.innerText = 'Tabela periódica'
-    Hg.style.background = 'lightgray'
-    le.innerText = ''
+    Hg.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Tálio
@@ -1042,12 +1569,20 @@ Tl.addEventListener('mouseout', saiuTl)
 function enterTl() {
     nome.innerText = 'Tálio'
     Tl.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Tl'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuTl() {
     nome.innerText = 'Tabela periódica'
-    Tl.style.background = 'lightgray'
-    le.innerText = ''
+    Tl.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Chumbo
@@ -1056,12 +1591,20 @@ Pb.addEventListener('mouseout', saiuPb)
 function enterPb() {
     nome.innerText = 'Chumbo'
     Pb.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Pb'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuPb() {
     nome.innerText = 'Tabela periódica'
-    Pb.style.background = 'lightgray'
-    le.innerText = ''
+    Pb.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Bismuto
@@ -1070,12 +1613,20 @@ Bi.addEventListener('mouseout', saiuBi)
 function enterBi() {
     nome.innerText = 'Bismuto'
     Bi.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Bi'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuBi() {
     nome.innerText = 'Tabela periódica'
-    Bi.style.background = 'lightgray'
-    le.innerText = ''
+    Bi.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Polônio
@@ -1084,12 +1635,20 @@ Po.addEventListener('mouseout', saiuPo)
 function enterPo() {
     nome.innerText = 'Polônio'
     Po.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Po'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuPo() {
     nome.innerText = 'Tabela periódica'
-    Po.style.background = 'lightgray'
-    le.innerText = ''
+    Po.style.background = 'rgb(84, 169, 170)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Ástato
@@ -1098,12 +1657,20 @@ At.addEventListener('mouseout', saiuAt)
 function enterAt() {
     nome.innerText = 'Ástato'
     At.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'At'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuAt() {
     nome.innerText = 'Tabela periódica'
-    At.style.background = 'lightgray'
-    le.innerText = ''
+    At.style.background = 'lightblue'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Radônio
@@ -1112,12 +1679,20 @@ Rn.addEventListener('mouseout', saiuRn)
 function enterRn() {
     nome.innerText = 'Radônio'
     Rn.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Rn'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRn() {
     nome.innerText = 'Tabela periódica'
-    Rn.style.background = 'lightgray'
-    le.innerText = ''
+    Rn.style.background = 'rgb(76, 144, 252)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Frâncio
@@ -1126,12 +1701,20 @@ Fr.addEventListener('mouseout', saiuFr)
 function enterFr() {
     nome.innerText = 'Frâncio'
     Fr.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Fr'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuFr() {
     nome.innerText = 'Tabela periódica'
-    Fr.style.background = 'lightgray'
-    le.innerText = ''
+    Fr.style.background = 'orange'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Rádio
@@ -1140,12 +1723,20 @@ Ra.addEventListener('mouseout', saiuRa)
 function enterRa() {
     nome.innerText = 'Rádio'
     Ra.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRa() {
     nome.innerText = 'Tabela periódica'
-    Ra.style.background = 'lightgray'
-    le.innerText = ''
+    Ra.style.background = 'yellow'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Laurêncio
@@ -1154,12 +1745,20 @@ Lr.addEventListener('mouseout', saiuLr)
 function enterLr() {
     nome.innerText = 'Laurêncio'
     Lr.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Lr'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuLr() {
     nome.innerText = 'Tabela periódica'
-    Lr.style.background = 'lightgray'
-    le.innerText = ''
+    Lr.style.background = 'rgb(138, 86, 138)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Rutherfórdio
@@ -1168,12 +1767,20 @@ Rf.addEventListener('mouseout', saiuRf)
 function enterRf() {
     nome.innerText = 'Rutherfórdio'
     Rf.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Rf'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRf() {
     nome.innerText = 'Tabela periódica'
-    Rf.style.background = 'lightgray'
-    le.innerText = ''
+    Rf.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Dúbnio
@@ -1182,12 +1789,20 @@ Db.addEventListener('mouseout', saiuDb)
 function enterDb() {
     nome.innerText = 'Dúbnio'
     Db.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Db'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuDb() {
     nome.innerText = 'Tabela periódica'
-    Db.style.background = 'lightgray'
-    le.innerText = ''
+    Db.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Seabórgio
@@ -1196,12 +1811,20 @@ Sg.addEventListener('mouseout', saiuSg)
 function enterSg() {
     nome.innerText = 'Seabórgio'
     Sg.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Sg'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuSg() {
     nome.innerText = 'Tabela periódica'
-    Sg.style.background = 'lightgray'
-    le.innerText = ''
+    Sg.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Bóhrio
@@ -1210,12 +1833,20 @@ Bh.addEventListener('mouseout', saiuBh)
 function enterBh() {
     nome.innerText = 'Bóhrio'
     Bh.style.background = 'red'
-    le.innerText = '' 
+    le.innerText = 'Bh' 
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuBh() {
     nome.innerText = 'Tabela periódica'
-    Bh.style.background = 'lightgray'
-    le.innerText = ''
+    Bh.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Hássio
@@ -1224,12 +1855,20 @@ Hs.addEventListener('mouseout', saiuHs)
 function enterHs() {
     nome.innerText = 'Hássio'
     Hs.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Hs'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuHs() {
     nome.innerText = 'Tabela periódica'
-    Hs.style.background = 'lightgray'
-    le.innerText = ''
+    Hs.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Meitnério
@@ -1238,12 +1877,20 @@ Mt.addEventListener('mouseout', saiuMt)
 function enterMt() {
     nome.innerText = 'Meitnério'
     Mt.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Mt'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuMt() {
     nome.innerText = 'Tabela periódica'
-    Mt.style.background = 'lightgray'
-    le.innerText = ''
+    Mt.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Darmstádtio
@@ -1252,12 +1899,20 @@ Ds.addEventListener('mouseout', saiuDs)
 function enterDs() {
     nome.innerText = 'Darmstádtio'
     Ds.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ds'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuDs() {
     nome.innerText = 'Tabela periódica'
-    Ds.style.background = 'lightgray'
-    le.innerText = ''
+    Ds.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Roentgênio
@@ -1266,12 +1921,20 @@ Rg.addEventListener('mouseout', saiuRg)
 function enterRg() {
     nome.innerText = 'Roentgênio'
     Rg.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Rg'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuRg() {
     nome.innerText = 'Tabela periódica'
-    Rg.style.background = 'lightgray'
-    le.innerText = ''
+    Rg.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Copernício
@@ -1280,12 +1943,20 @@ Cn.addEventListener('mouseout', saiuCn)
 function enterCn() {
     nome.innerText = 'Copernício'
     Cn.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Cn'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuCn() {
     nome.innerText = 'Tabela periódica'
-    Cn.style.background = 'lightgray'
-    le.innerText = ''
+    Cn.style.background = 'pink'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Nihônio
@@ -1294,12 +1965,20 @@ Nh.addEventListener('mouseout', saiuNh)
 function enterNh() {
     nome.innerText = 'Nihônio'
     Nh.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Nh'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuNh() {
     nome.innerText = 'Tabela periódica'
-    Nh.style.background = 'lightgray'
-    le.innerText = ''
+    Nh.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Fleróvio
@@ -1308,12 +1987,20 @@ Fl.addEventListener('mouseout', saiuFl)
 function enterFl() {
     nome.innerText = 'Fleróvio'
     Fl.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Fl'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuFl() {
     nome.innerText = 'Tabela periódica'
-    Fl.style.background = 'lightgray'
-    le.innerText = ''
+    Fl.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Moscóvio
@@ -1322,12 +2009,20 @@ Mc.addEventListener('mouseout', saiuMc)
 function enterMc() {
     nome.innerText = 'Moscóvio'
     Mc.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Mc'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuMc() {
     nome.innerText = 'Tabela periódica'
-    Mc.style.background = 'lightgray'
-    le.innerText = ''
+    Mc.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Livermório
@@ -1336,12 +2031,20 @@ Lv.addEventListener('mouseout', saiuLv)
 function enterLv() {
     nome.innerText = 'Livermório'
     Lv.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Lv'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuLv() {
     nome.innerText = 'Tabela periódica'
-    Lv.style.background = 'lightgray'
-    le.innerText = ''
+    Lv.style.background = 'rgb(84, 103, 148)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Tennesso
@@ -1350,12 +2053,20 @@ Ts.addEventListener('mouseout', saiuTs)
 function enterTs() {
     nome.innerText = 'Tennesso'
     Ts.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Ts'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuTs() {
     nome.innerText = 'Tabela periódica'
-    Ts.style.background = 'lightgray'
-    le.innerText = ''
+    Ts.style.background = 'lightblue'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 
 //Oganessônio
@@ -1364,10 +2075,18 @@ Og.addEventListener('mouseout', saiuOg)
 function enterOg() {
     nome.innerText = 'Oganessônio'
     Og.style.background = 'red'
-    le.innerText = ''
+    le.innerText = 'Og'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
 function saiuOg() {
     nome.innerText = 'Tabela periódica'
-    Og.style.background = 'lightgray'
-    le.innerText = ''
+    Og.style.background = 'rgb(76, 144, 252)'
+    le.innerText = 'Letra'
+    si.innerText = ' '
+    na.innerText = ' '
+    ma.innerText = ' '
+    ce.innerText = ' '
 }
